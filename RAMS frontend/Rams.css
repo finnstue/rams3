@@ -1,0 +1,258 @@
+body {
+    background-color: white;
+    margin-bottom: 5vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.content {
+    width: 75vw;
+    justify-content: center;
+}
+
+.divider {
+    width: 80vw;
+    background-color: rgb(235, 235, 235);
+    height: 0.2vw;
+    border-radius: 2vh;
+}
+
+.button {
+    cursor: pointer;
+    background-color: rgb(43, 113, 226);
+    border-radius: 2vh;
+    padding: 1vh 2vh 1vh 2vh;
+    height: 8vh;
+    border-width: 0;
+    margin: auto;
+    color: white;
+}
+
+.button:active {
+    color: black;
+}
+
+.font {
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+}
+
+.big {
+    font-size: 5vh;
+}
+
+.medium {
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.small {
+    font-size: 2vh;
+}
+
+.euflag {
+    height: 4vh;
+}
+
+.aidescription {
+    width:  70vw;
+    height: 30vh;
+    border-radius: 2vh;
+    resize: vertical;
+    padding: 2vw;
+    border-width: 0;
+    box-shadow: 0 0 1vw black;
+    margin-bottom: 4vh;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.resultcontainer {
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.white-box {
+  padding: 0vh 3vh;
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.alert-box {
+  padding: 0vh 0vh;
+  background: rgba(249, 249, 124, 0.4);
+  box-shadow: 0 2px 8px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  color: rgba(73, 73, 0, 0.9);
+}
+
+.circle {
+    background-color: rgb(43, 113, 226);
+    height: 8vh;
+    width: 8vh;
+    border-radius: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 8vh;
+    flex-shrink: 0;
+}
+
+.gap {
+    width: 2vh;
+}
+
+.riskbarometer {
+    height: 5vw;
+    width: 65vw;
+    border-radius: 10vw;
+    background: rgb(0,255,41);
+    background: linear-gradient(90deg, rgba(0,255,41,1) 0%, rgba(255,195,43,1) 50%, rgba(255,0,0,1) 100%);
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+.barometercircle {
+    height: 3.5vw;
+    width: 3.5vw;
+    border: 0.75vw solid black;
+    border-radius: 10vw;
+    margin-left: 60.1vw;
+    background-color: white;
+}
+
+/* .circle1 {
+  margin-left: 0vw;
+}
+
+.circle2 {
+  margin-left: 60.1vw;
+} */
+
+.round {
+  position: relative;
+}
+.round label {
+  background-color: white;
+  border: 0.5vh solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 7vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 7vh;
+}
+.round label:after {
+  border: 1vh solid white;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 1.5vh;
+  left: 1.5vh;
+  opacity: 0;
+  position: absolute;
+  top: 1.85vh;
+  transform: rotate(-45deg);
+  width: 3vh;
+  border-radius: 10%;
+}
+.round input[id="checkbox"] {
+  visibility: hidden;
+}
+.round input[id="checkbox"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox2"] {
+  visibility: hidden;
+}
+.round input[id="checkbox2"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox2"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox3"] {
+  visibility: hidden;
+}
+.round input[id="checkbox3"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox3"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox4"] {
+  visibility: hidden;
+}
+.round input[id="checkbox4"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox4"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox5"] {
+  visibility: hidden;
+}
+.round input[id="checkbox5"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox5"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox6"] {
+  visibility: hidden;
+}
+.round input[id="checkbox6"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox6"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox7"] {
+  visibility: hidden;
+}
+.round input[id="checkbox7"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox7"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[id="checkbox8"] {
+  visibility: hidden;
+}
+.round input[id="checkbox8"]:checked + label {
+  background-color: rgb(43, 113, 226);
+}
+.round input[id="checkbox8"]:checked + label:after {
+  opacity: 1;
+}
+
+.checkboxcontainer {
+  height: 8vh;
+  width: 8vh;
+  flex-shrink: 0;
+}
